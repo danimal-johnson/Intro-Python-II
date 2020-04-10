@@ -7,6 +7,7 @@ class Room():
         self,
         name,
         description,
+        contents=[],
         n_to=None,
         e_to=None,
         w_to=None,
@@ -14,6 +15,7 @@ class Room():
     ):
         self.name = name
         self.description = description
+        self.contents = contents
         self.n_to = n_to
         self.s_to = s_to
         self.e_to = e_to
